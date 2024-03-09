@@ -5,9 +5,8 @@ import java.util.Objects;
 public class RequestLine {
 
     private final String method;    // GET
-    private final String urlPath;   // /calculate?operand1=7&operator=*&operand2=8
-
-    private String queryString;
+    private final String urlPath;   // /calculate
+    private String queryString;     // operand1=7&operator=*&operand2=8
 
     public RequestLine(String method, String urlPath, String queryString) {
         this.method = method;
