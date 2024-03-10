@@ -1,4 +1,4 @@
-package org.example.calculator;
+package org.example;
 
 import org.example.RequestLine;
 
