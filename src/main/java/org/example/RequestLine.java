@@ -4,14 +4,14 @@ import java.util.Objects;
 
 public class RequestLine {
 
-    private final String method;    // GET
-    private final String urlPath;   // /calculate
-    private String queryString;     // operand1=7&operator=*&operand2=8
+    private final String method;        // GET
+    private final String urlPath;       // /calculate
+    private QueryStrings queryStrings;  // operand1=7&operator=*&operand2=8
 
-    public RequestLine(String method, String urlPath, String queryString) {
+    public RequestLine(String method, String urlPath, String queryStrings) {
         this.method = method;
         this.urlPath = urlPath;
-        this.queryString = queryString;
+        this.queryStrings = new QueryStrings(queryStrings);
     }
 
     public RequestLine(String requestLine) {
@@ -22,8 +22,20 @@ public class RequestLine {
         this.urlPath = urlPathTokens[0];
 
         if (urlPathTokens.length == 2) {
-            this.queryString = urlPathTokens[1];
+            this.queryStrings = new QueryStrings(urlPathTokens[1]);
         }
+    }
+
+    public boolean isGetRequest() {
+        return "GET".equals(this.method);
+    }
+
+    public boolean matchPath(String requestPath) {
+        return urlPath.equals(requestPath);
+    }
+
+    public QueryStrings getQueryStrings() {
+        return this.queryStrings;
     }
 
     @Override
@@ -31,11 +43,11 @@ public class RequestLine {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         RequestLine that = (RequestLine) o;
-        return Objects.equals(method, that.method) && Objects.equals(urlPath, that.urlPath) && Objects.equals(queryString, that.queryString);
+        return Objects.equals(method, that.method) && Objects.equals(urlPath, that.urlPath) && Objects.equals(queryStrings, that.queryStrings);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(method, urlPath, queryString);
+        return Objects.hash(method, urlPath, queryStrings);
     }
 }
