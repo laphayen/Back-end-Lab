@@ -29,7 +29,7 @@ public class CustomWebApplicationServer {
             while ((clientSocket = serverSocket.accept()) != null) {
                 logger.info("[CustomWebApplicationServer] client connected!");
 
-                try(InputStream in = clientSocket.getInputStream(); OutputStream out = clientSocket.getOutputStream()) {
+                try (InputStream in = clientSocket.getInputStream(); OutputStream out = clientSocket.getOutputStream()) {
                     BufferedReader br = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
                     DataOutputStream dos = new DataOutputStream(out);
 
@@ -43,6 +43,12 @@ public class CustomWebApplicationServer {
                         int operand2 = Integer.parseInt(queryStrings.getValue("operand2"));
 
                         int result = Calculator.calculate(new PositiveNumber(operand1), operator, new PositiveNumber(operand2));
+
+                        byte[] body = String.valueOf(result).getBytes();
+
+                        HttpResponse response = new HttpResponse(dos);
+                        response.response200Header("application/json", body.length);
+                        response.responseBody(body);
                     }
                 }
             }
