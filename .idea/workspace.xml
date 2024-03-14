@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Build Add Servlet Dependency">
+    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Build: Setting up Tomcat and IntelliJ IDEA Environment">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +22,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -40,7 +43,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.WebApplicationServerLauncher.executor": "Run",
     "Gradle.servlet-practice [:WebApplicationServerLauncher.main()].executor": "Run",
+    "HTTP Request.test | #1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +62,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.test | #1">
     <configuration name="WebApplicationServerLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WebApplicationServerLauncher" />
       <module name="servlet-practice.main" />
@@ -71,8 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | #1" />
         <item itemvalue="Application.WebApplicationServerLauncher" />
       </list>
     </recent_temporary>
@@ -92,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710423209307</updated>
-      <workItem from="1710423210396" duration="1758000" />
+      <workItem from="1710423210396" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add dependency">
       <option name="closed" value="true" />
@@ -126,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710424630536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Build: Setting up Tomcat and IntelliJ IDEA Environment">
+      <option name="closed" value="true" />
+      <created>1710425175767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425175767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +154,7 @@
     <MESSAGE value="Feat: Configure the Tomcat Environment" />
     <MESSAGE value="Feat: Implement Calculator" />
     <MESSAGE value="Build Add Servlet Dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build Add Servlet Dependency" />
+    <MESSAGE value="Build: Setting up Tomcat and IntelliJ IDEA Environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build: Setting up Tomcat and IntelliJ IDEA Environment" />
   </component>
 </project>
