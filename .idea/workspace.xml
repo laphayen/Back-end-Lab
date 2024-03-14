@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Test: Add HTTP Request">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Test: Modify to request operand and operator in Servlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapps/WEB-INF/classes/org/example/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/webapps/WEB-INF/classes/org/example/CalculatorServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710423209307</updated>
-      <workItem from="1710423210396" duration="3327000" />
+      <workItem from="1710423210396" duration="3831000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add dependency">
       <option name="closed" value="true" />
@@ -162,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710425595920</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat: Implement calculator service in Servlet">
+      <option name="closed" value="true" />
+      <created>1710426597329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710426597329</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test: Modify to request operand and operator in Servlet">
+      <option name="closed" value="true" />
+      <created>1710426747017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710426747017</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +189,8 @@
     <MESSAGE value="Build: Setting up Tomcat and IntelliJ IDEA Environment" />
     <MESSAGE value="Feat: Implement Servlet Interface" />
     <MESSAGE value="Test: Add HTTP Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test: Add HTTP Request" />
+    <MESSAGE value="Feat: Implement calculator service in Servlet" />
+    <MESSAGE value="Test: Modify to request operand and operator in Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test: Modify to request operand and operator in Servlet" />
   </component>
 </project>
