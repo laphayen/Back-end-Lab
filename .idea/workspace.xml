@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Build: Add dependency">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebApplicationServerLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,11 +59,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710423209307</updated>
-      <workItem from="1710423210396" duration="169000" />
+      <workItem from="1710423210396" duration="311000" />
     </task>
+    <task id="LOCAL-00001" summary="Build: Add dependency">
+      <option name="closed" value="true" />
+      <created>1710423397223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710423397223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Build: Add dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build: Add dependency" />
   </component>
 </project>
