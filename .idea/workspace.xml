@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Build: Setting up Tomcat and IntelliJ IDEA Environment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+    <list default="true" id="7bc909b4-76dd-4799-8802-a8bbb799a50f" name="Changes" comment="Test: Add HTTP Request">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapps/WEB-INF/classes/org/example/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/webapps/WEB-INF/classes/org/example/CalculatorServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710423209307</updated>
-      <workItem from="1710423210396" duration="2132000" />
+      <workItem from="1710423210396" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="Build: Add dependency">
       <option name="closed" value="true" />
@@ -143,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710425175767</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feat: Implement Servlet Interface">
+      <option name="closed" value="true" />
+      <created>1710425399428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425399428</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test: Add HTTP Request">
+      <option name="closed" value="true" />
+      <created>1710425595919</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425595920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +174,8 @@
     <MESSAGE value="Feat: Implement Calculator" />
     <MESSAGE value="Build Add Servlet Dependency" />
     <MESSAGE value="Build: Setting up Tomcat and IntelliJ IDEA Environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build: Setting up Tomcat and IntelliJ IDEA Environment" />
+    <MESSAGE value="Feat: Implement Servlet Interface" />
+    <MESSAGE value="Test: Add HTTP Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test: Add HTTP Request" />
   </component>
 </project>
