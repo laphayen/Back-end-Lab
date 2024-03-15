@@ -7,6 +7,7 @@ import org.springframework.jdbc.datasource.init.DatabasePopulator;
 import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
 
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -21,7 +22,7 @@ public class UserDaoTest {
     }
 
     @Test
-    void createTest() {
+    void createTest() throws SQLException {
         UserDao userDao = new UserDao();
 
         userDao.create(new User("laphayen", "password", "name", "email"));
