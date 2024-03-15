@@ -10,7 +10,7 @@ public class ConnectionManager {
         HikariDataSource hikariDataSource = new HikariDataSource();
         hikariDataSource.setDriverClassName("org.h2.Driver");
         hikariDataSource.setJdbcUrl("jdbc:h2:mem://localhost/~/jdbc-practice;MODE=MySQL;DB_CLOSE_DELAY=-1");
-        hikariDataSource.setUsername("laphayen");
+        hikariDataSource.setUsername("sa");
         hikariDataSource.setPassword("");
 
         return hikariDataSource;
