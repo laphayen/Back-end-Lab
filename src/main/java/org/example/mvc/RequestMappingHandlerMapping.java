@@ -14,7 +14,7 @@ public class RequestMappingHandlerMapping {
         mappings.put("/", new HomeController());
     }
 
-    public Controller findHandler(String urlPath) {
-        return mappings.get(urlPath);
+    public Controller findHandler(String uriPath) {
+        return mappings.get(uriPath);
     }
 }
