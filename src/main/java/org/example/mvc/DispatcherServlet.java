@@ -21,6 +21,7 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
+        rmhm = new RequestMappingHandlerMapping();
         rmhm.init();
     }
 
