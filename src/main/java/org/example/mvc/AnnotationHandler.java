@@ -15,9 +15,9 @@ public class AnnotationHandler {
     }
 
     public String handle(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        Constructor<?> defaultConstructor = clazz.getDeclaredConstructor();
-        Object targetObject = defaultConstructor.newInstance();
+        Constructor<?> declaredConstructor = clazz.getDeclaredConstructor();
+        Object handler = declaredConstructor.newInstance();
 
-        return (String) targetMethod.invoke(targetObject, request, response);
+        return (String) targetMethod.invoke(handler, request, response);
     }
 }
